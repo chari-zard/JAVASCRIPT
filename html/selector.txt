@@ -1,0 +1,12 @@
+getElementById() :
+byname
+byclass
+bytag
+:- to access the elemnts by these attributes
+querySelector  :- to select first  element by attributes or tags.
+querySelectorAll :- to select all elements by attributes or tags.
+ 
+ nodelists are not arrays but they allow forEach function 
+ HTMLcollections  do not allow the forEach function
+
+ queryselector produces the nodelist

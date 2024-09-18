@@ -26,8 +26,8 @@ let arr = [1, 2, 3, 4];
 
 // flatMap(): First maps each element, then flattens the result by one level.
 
-// let newarr = myarr.concat(arr)
+let newarr = myarr.concat(arr)
 
-let res = [...myarr,...arr]  //it is called spread operator it can add multiple arrays
+// let res = [...myarr,...arr]  //it is called spread operator it can add multiple arrays
 
-console.log(res);
+console.log(newarr);

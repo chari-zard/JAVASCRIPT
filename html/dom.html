@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>DOM</title>
+</head>
+<style>
+    .bg-slate{
+        background-color: slategray;
+    }
+</style>
+<body >
+    <div class="parent"> 
+        <h1 id="title0" class="test">THIS IS HEADING 1</h1>
+        <h1 id="title1" class="test">THIS IS HEADING 2</h1>
+        <h1 id="title2" class="test">THIS IS HEADING 3</h1>
+        <h1 id="title3" class="test">THIS IS HEADING 4</h1>
+        <!-- <p>Lorem ipsum dolor sit amet consectetur <span>this is demo</span> </p> -->
+    </div>
+      
+</body>
+<script>
+    const parents = document.querySelector('.parent');
+    // console.log(parents);
+    // console.log(parents.children);
+    // console.log(parents.firstElementChild);
+    // console.log(parents.lastElementChild);
+    // for (let i = 0; i < parents.children.length; i++) {
+    //     parents.style.color = 'red';
+    //     parents.style.background = 'black';       
+    // }
+    const myday = document.querySelector('.test')
+    console.log(myday)
+    console.log(myday.parentNode);
+    console.log(myday.nextElementSibling);
+    console.log(parents.childNodes);
+       
+</script>
+</html> 

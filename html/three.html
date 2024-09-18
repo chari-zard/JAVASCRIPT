@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: darkslategray;">
+    <ul class="language">
+        <li>java</li>
+        <li>c++</li>
+        <li>python</li>
+    </ul>
+    
+</body>
+<script>
+    function addlang(newlang){
+        const lan = document.createElement('li')
+        lan.innerHTML = `${newlang}`
+        document.querySelector('.language').append(lan)       
+    }
+    addlang('typescript')
+
+    function addoptlang(newlang){
+        const ele = document.createElement('li')
+        ele.appendChild(document.createTextNode(`${newlang}`))
+        document.querySelector('.language').append(ele)
+    }
+    addoptlang('ruby')
+        // const ele = document.createElement('li')
+    const ele = document.querySelector('li:nth-child(1)')
+    ele.outerHTML= '<li>newnode</li>'
+
+    const rep = document.querySelector('li:first-child')
+    console.log(rep);
+    
+    const new1 = document.createElement('li')
+    new1.textContent= 'php'
+    rep.replaceWith(new1)
+    
+</script>
+</html>
