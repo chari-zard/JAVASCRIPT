@@ -11,7 +11,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
+    height: 150vh;
 }
 
 .header {
@@ -32,12 +32,13 @@ body {
 }
 
 .game-container {
-    margin-top: 50px;
+    margin-top: 80px;
     text-align: center;
     background: #333;
     padding: 20px;
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
+    height: 500px;
 }
 
 input {
