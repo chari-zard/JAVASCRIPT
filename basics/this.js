@@ -9,9 +9,9 @@ const user = {
       
     }
 }
-// user.welcomemessage()
-// user.name = "greninja"
-// user.welcomemessage()
+user.welcomemessage()
+user.name = "greninja"
+user.welcomemessage()
 
 // ------------arrow fucntion------------------------------------------------------
 
@@ -26,6 +26,6 @@ const user = {
 
 // for objects
 
-const fake = ()=>({user:"name"})
+// const fake = ()=>({user:"name"})
 
-console.log(fake());
+// console.log(fake());
